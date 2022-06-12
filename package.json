@@ -1,21 +1,20 @@
 {
-  "name": "chatapp",
+  "name": "chatsapp",
   "version": "1.0.0",
-  "description": "real time chat with room",
+  "description": "Real Time Chat App with rooms",
   "main": "server.js",
   "scripts": {
-      "start":"node server",
-      "dev":"nodemon server"
-
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "author": "rahul kumar patel",
+  "author": "Tanya Rajhans",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.3",
-    "moment": "^2.29.2",
-    "socket.io": "^4.4.1"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.0"
   }
 }
